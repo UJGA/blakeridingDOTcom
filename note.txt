@@ -1,0 +1,6 @@
+Colors I like an off white with some light gray, my favorite color is quartz pink.
+Font im not too sure on, something easy on the eyes but professional
+I would like to have a contact form, but will probably be hosting it on github pages so a contact form probably won't work.
+I want to have a button to view and then download my resume in a pdf.
+Idealy I would like one page, but with a navbar at the top that just scrolls down the page. 
+Pages: Home, About, Skills, Contact

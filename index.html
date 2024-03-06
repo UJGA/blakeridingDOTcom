@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Blake Riding</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="container mt-5">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <h1>Hi there! I'm Blake</h1>
+                <p>Experienced IT Technician skilled in troubleshooting, system administration, and network management. Certified in Jamf.</p>
+
+                <a href="BR_Resume.pdf" class="btn btn-resume" download="BlakeRiding_Resume">My Resume</a>
+
+                <a href="#contact" class="btn btn-contact">Contact Me</a>
+
+            </div>
+            <div class="col-lg-6">
+                <img src="earth.avif" alt="Placeholder" class="img-fluid">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container mt-5">
+        <div class="row">
+            <div class="col-lg-6 order-lg-2">
+                <h2>About Me</h2>
+                <p>Outside of my role as an IT Technician, I'm a passionate individual with diverse interests. You'll often find me hitting the greens for a round of golf, immersing myself in the virtual worlds of video games, or gazing at the stars, fascinated by the mysteries of space. These hobbies not only provide me with relaxation and enjoyment but also fuel my creativity and problem-solving skills in unexpected ways.</p>
+            </div>
+            <div class="col-lg-6 order-lg-1">
+                <img src="BlakeRiding.JPG" alt="Blake Riding Photo" class="img-fluid">
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="container mt-5">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2>Licenses & Certifications</h2>
+            </div>
+        </div>
+        <div class="row text-center mt-4">
+            <div class="col-md-6">
+                <h3>Microsoft</h3>
+                <p>Career Essentials in System Administration</p>
+                <p>Issued Feb 2024</p>
+            </div>
+            <div class="col-md-6">
+                <h3>Jamf</h3>
+                <p>Jamf Certified Associate Exam - English</p>
+                <p>Issued Jul 2023</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="skills" class="container mt-5">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2>Professional Skills</h2>
+            </div>
+        </div>
+        <div class="row text-center mt-4">
+            <div class="col-md-4">
+                <h3>Systems & Network Administration</h3>
+                <ul class="list-unstyled">
+                    <li>Windows Server Administration</li>
+                    <li>Linux System Administration</li>
+                    <li>Windows System Administration</li>
+                    <li>Active Directory</li>
+                    <li>VMware vSphere & VMware Workstation</li>
+                    <li>Network Security</li>
+                    <li>Jamf</li>
+                </ul>
+                <h3>Virtualization & Cloud Services</h3>
+                <ul class="list-unstyled">
+                    <li>VMware vCenter</li>
+                    <li>Desktop Virtualization</li>
+                    <li>Microsoft Intune</li>
+                    <li>OneDrive</li>
+                    <li>Microsoft Teams</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h3>Development & Scripting</h3>
+                <ul class="list-unstyled">
+                    <li>Scripting</li>
+                    <li>PHP & phpMyAdmin</li>
+                    <li>HTML</li>
+                    <li>Powershell</li>
+                    <li>Python</li>
+                    <li>Javascript</li>
+                </ul>
+                <h3>Database Management</h3>
+                <ul class="list-unstyled">
+                    <li>Microsoft SQL Server</li>
+                    <li>MySQL</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h3>IT Infrastructure & Tools</h3>
+                <ul class="list-unstyled">
+                    <li>Microsoft Endpoint Configuration Manager</li>
+                    <li>Cable Management</li>
+                    <li>Hardware Installation</li>
+                    <li>Jira Service Desk</li>
+                    <li>Computer Imaging</li>
+                </ul>
+                <h3>Additional Skills</h3>
+                <ul class="list-unstyled">
+                    <li>Homelab</li>
+                    <li>Documentation</li>
+                    <li>IT Operations</li>
+                    <li>IT Management</li>
+                    <li>System Administration</li>
+                    <li>Network Administration</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+
+    <section id="contact" class="container mt-5">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <h2 class="text-center">Contact</h2>
+                <p class="text-center">Have a question? Please use the form below to send a message and I will get back to you as soon as possible. Thank you!</p>
+                
+                <form action="https://formspree.io/f/xzbnvbnp" method="POST" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="name" placeholder="Your Name*" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" name="_replyto" placeholder="Email Address*" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" class="form-control" name="phone" placeholder="Phone Number*">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" name="message" placeholder="Message*" rows="4" required></textarea>
+                    </div>
+                    <div class="form-check mb-3">
+                        <input type="checkbox" class="form-check-input" id="check" required>
+                        <label class="form-check-label" for="check">I accept the above information will be used to contact me.</label>
+                    </div>
+                    <button type="submit" class="btn submit-button">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <footer id="footer">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <a href="https://www.linkedin.com/in/maddieharrisux/"><img src="linkedin.png" alt="LinkedIn" class="social-icon"></a>
+                    <a href="https://github.com/Maddie-Harris"><img src="github.png" alt="GitHub" class="social-icon"></a>
+                    <a href="https://twitter.com/MaddieHarrisUX"><img src="twitter.png" alt="Twitter" class="social-icon"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    
+        
+    
+    
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
